@@ -10,6 +10,8 @@
 # ビルド済みファームウェア
 [こちら](https://github.com/kusaanko/DengoPStoSwitch/releases/latest)
 
+ファームウェアのインストール方法については、Raspberry Pi Picoのドキュメントに従ってください。
+
 # ピン配置
 以下のように接続してください。プルアップ抵抗は不要です。
 
