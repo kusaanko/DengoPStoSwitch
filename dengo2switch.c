@@ -183,6 +183,8 @@ int main(void)
                         hori_gamepad_report.hat = HORIPAD_RIGHT;
                     if (ps2_is_START_pressed())
                         hori_gamepad_report.hat = HORIPAD_UP;
+                    if (board_button_read())
+                        hori_gamepad_report.buttons |= HORIPAD_CAPTURE;
                 }
                 else
                 {
@@ -194,10 +196,8 @@ int main(void)
                         hori_gamepad_report.buttons |= HORIPAD_A;
                     if (ps2_is_START_pressed())
                         hori_gamepad_report.buttons |= HORIPAD_X;
-                }
-                if (board_button_read())
-                {
-                    hori_gamepad_report.buttons |= HORIPAD_HOME;
+                    if (board_button_read())
+                        hori_gamepad_report.buttons |= HORIPAD_HOME;
                 }
                 if (dengo_plus_press_time > 0)
                 {

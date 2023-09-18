@@ -36,12 +36,14 @@ START - X
 A - Y  
 B - B  
 C - A  
+Pico上のボタン - HOME  
 
 ## SELECTを押した状態
 START - 上  
 A - 左  
 B - 下  
 C - 右  
+Pico上のボタン - キャプチャ  
 
 # ビルド手順
 
