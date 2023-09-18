@@ -75,7 +75,7 @@ static uint32_t pre_buttons = 0;
 #define HORIPAD_UP_LEFT 0x07
 #define HORIPAD_CENTER 0x08
 
-static uint8_t dengo_break_notch[] = {128, 96, 82, 68, 52, 38, 24, 18, 10, 0};
+static uint8_t dengo_break_notch[] = {128, 96, 82, 68, 52, 38, 24, 18, 5, 0};
 static uint32_t dengo_select_press_time = 0;
 static uint32_t dengo_plus_press_time = 0;
 
